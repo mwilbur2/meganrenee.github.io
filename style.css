@@ -1,0 +1,130 @@
+h1,h2           {padding: 5px 10px 10px 10px;
+                    font-family: 'Open Sans', 'Noto Sans', sans-serif;
+                    text-shadow:
+		                  -1px -1px 0 #fff,
+                           2px -1px 0 #fff,
+		                  -1px 2px 0 #fff,
+		                   2px 1px 0 #fff;}
+a               {font-style: oblique;
+                    color:#29221F;}
+p               {padding: 5px 10px 10px 10px;}
+header          {display: block;
+                    background-color:#FCF7C5;
+                    border-radius: 15px;
+                    text-align: center;
+                    font-size: 15px;}
+body            {background-color: #29221F;
+                    max-width: 100%;
+                    font-family: 'Open Sans', 'Noto Sans', sans-serif;}
+.contact        {background-color: #FC354C;
+                    border-radius: 15px;
+                    display:inline-block;}
+.style          {display: inline-block;}
+img             {padding: 5px;
+                    border: 5px solid #29221F;
+                    border-radius: 200px;
+                    width: 15%;
+                    margin-top: 10px;
+                    }
+.bodyimageone     {padding: 5px;
+                    border: 5px solid #29221F;
+                    border-radius: 200px;
+                    width: 15%;
+                    float: right;
+                    margin-top: -285px;
+                    margin-right: 10px;
+                    }
+.bodyimagetwo    {padding: 5px;
+                    border: 5px solid #29221F;
+                    border-radius: 200px;
+                    width: 20%;
+                    float: left;
+                    margin-top: -250px;
+                    margin-left: 700px;
+                    }
+.menu           {background-color: #0ABFBC;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin-top: 10px;
+                    padding: 5px 0px 5px 0px;
+                    height: 25px;
+                    width: auto;
+                    float: center;}
+.footer          {background-color: #0ABFBC;
+                    border-radius: 15px;
+                    text-align: center;
+                    padding: 5px 0px 5px 0px;
+                    height: 25px;
+                    width: auto;
+                    margin-top: 340px;}
+.button         {background-color: #29221F;
+                    color: white;
+                    padding: 15px 20px;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;}
+.objective      {background-color: #0ABFBC;
+                    border-radius: 15px;
+                    text-align: center;
+                    height: 250px;
+                    width: 50%;
+                    float: left;}
+.welcome        {background-color: #0ABFBC;
+                    border-radius: 15px;
+                    text-align: center;
+                    margin-top: -331px;
+                    height: 300px;
+                    width: 50%;
+                    float: left;}
+.welcomeright   {background-color: #fff;
+                    border-radius: 15px;
+                    text-align: center;
+                    height: 300px;
+                    width: 50%;
+                    float: right;}
+.education      {background-color: #0ABFBC;
+                    border-radius: 15px;
+                    text-align: center;
+                    width: 50%;
+                    height: 250px;
+                    float: right;}
+.attributes     {padding:5px 10px 10px 20px;
+                    border-radius: 15px;
+                    margin-top: 160px;
+                    margin-left: 150px;
+                    margin-right: 150px;
+                    background-color: #13747D;
+                    text-align: center;
+                    width: 75%;
+                    height: auto;
+                    position: absolute;}
+.list           {padding:5px 10px 10px 20px;
+                    border-radius: 15px;
+                    margin-top: 140px;
+                    margin-left: 150px;
+                    margin-right: 150px;
+                    background-color: #13747D;
+                    text-align: center;
+                    width: auto;
+                    height: auto;
+                    position: absolute;}
+.experience     {background-color: #FC354C;
+                    border-radius: 15px;
+                    text-align: left;
+                    width: 100%;
+                    height: auto;
+                    padding-top: 10px;
+                    float: left;}
+.awards     {background-color: #FCF7C5;
+                    text-align: center;
+                    border-radius: 15px;
+                    margin-top: -500px;
+                    padding-right: 20px;
+                    width: 30%;
+                    height: auto;
+                    padding-top: 20px;
+                    float: right;
+                    position: relative;}
