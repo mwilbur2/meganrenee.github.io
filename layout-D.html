@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ugh homework</title> 
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <style>
+        /** CLEARFIX stops the floats! **/
+*{
+                box-sizing:border-box
+            }
+        
+.row::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+
+/** Float ALL the column classes **/
+[class*="col-"]{
+    float: left;
+    margin: auto;
+    padding: 1%;
+    text-align:center;
+}
+
+.row:after{
+    content: "";
+    clear:both;
+    display:block;
+}
+
+/** Assign widths to column classes **/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+    .layoutDimage{
+    width:25%;
+}  
+.layoutD{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 599;
+    color: white;
+    margin: auto;
+    background-image: url("http://14textures.com/wp-content/uploads/2015/06/Charcoal-1.jpg");
+    background-repeat:no-repeat;
+}
+.layoutDtext{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 599;
+    font-size: 40px;
+    color: white; 
+}
+.layoutDtext1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 599;
+    font-size: 20px;
+    color: white; 
+}
+.layoutDrow {
+    padding: 1%;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+.smallimage {
+    width:20%;
+}
+.layoutDtextsmall{
+    font-family: 'Verdana';
+    font-weight: 599;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    padding-top: 259px;
+    
+}       
+    </style> 
+</head>
+<body class="layoutD">
+    <section class="layoutDrow">
+        <img class="layoutDimage col-4" src="http://www.pngall.com/wp-content/uploads/2016/03/Vegetable-Free-PNG-Image.png">
+        <div class="layoutDtext col-4">
+            <p>~ WE'D BUY ~ 
+            <p>TINNED SALSA,</p>
+            <p>BUT WE'RE TOO BUSY</p>
+            <P>CHOPPING</P>
+            <P>TOMATOES</P>
+        <p class="layoutDtext1">~ WORTH THE EFFORT ~</p></div>
+        <img class="layoutDimage col-4" src="https://d5bzqyuki558t.cloudfront.net/cms-assets/system/asset_versions/attachments/000/000/215/original/_0010_TomatoSalsa.png?1428411863">
+        <div class="layoutDtextsmall col-3">
+            <p>Gourmet Burritos & Tacos <img class="smallimage" src="https://images1.phoenixnewtimes.com/imager/u/745xauto/9373016/chipotle_logo.jpg"></p></div>
+    </section>
+    </body>
+</html>
